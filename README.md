@@ -1,2 +1,3 @@
 # queueless
-A smart queue management system that lets users join queues remotely, track live queue status, and reduce waiting time.
+Reimagining how people wait. QueueLess is a smart queue management platform that replaces physical lines with live digital queues, enabling remote check-ins, real-time updates, and a smoother customer experience.
+

@@ -1,0 +1,112 @@
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #0F172A;
+}
+
+.hero-left span {
+    color: #2563EB;
+}
+
+.hero-left p {
+    margin: 25px 0;
+    color: #64748B;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.primary-btn {
+    background: #2563EB;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.secondary-btn {
+    background: white;
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.mockup {
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+.queue-card {
+    background: #2563EB;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.small-card {
+    background: #F8FAFC;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.small-card h4 {
+    color: #0F172A;
+}
+
+.small-card p {
+    color: #64748B;
+}
+
+@media(max-width:900px){
+
+.hero-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-left h1{
+    font-size:2.5rem;
+}
+
+.mockup{
+    width:100%;
+}
+}

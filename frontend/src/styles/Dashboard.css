@@ -1,0 +1,53 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 50px 20px;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 30px;
+}
+
+.queue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.queue-box {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.queue-box h2 {
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+.queue-box p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.queue-box button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.queue-box button:hover {
+  background: #1d4ed8;
+}

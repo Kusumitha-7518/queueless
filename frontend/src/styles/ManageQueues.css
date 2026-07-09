@@ -1,0 +1,52 @@
+.manage-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px;
+}
+
+.manage-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.manage-container h1 {
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+th {
+  background: #2563eb;
+  color: white;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: #2563eb;
+  color: white;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+}
